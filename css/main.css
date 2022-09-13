@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.textoimagen {
+    background-image: url("../asset/img/hero-bg.jpg");
+    height: 90vh;
+}
+
+h1 span {
+    color: blue;
+}
+ /* ESTILOS DE FOOTER */
+
+ footer{
+    padding: 5rem;
+    color: white;
+    margin-top: 4rem;
+    background-color: black;
+  }
+  
+  footer p{
+    text-align: center;
+  }
+  
+  
+  
+  .grid-padre{
+    height: 60vh;
+    display: grid;
+    grid-template-areas:
+                         "titulo titulo titulo"
+                          "imagen-1 imagen-2 imagen-3"
+                         "text-1 text-2 text-3"
+                         ;
+    justify-content: center;
+    justify-items: center;
+    ;
+  }
+  
+  .imagen-1{
+    max-width: 40%;
+    grid-area: imagen-1 ;
+    padding:auto;
+  
+  }
+  
+  
+  .titulo{
+    color: black;
+    grid-area: titulo;
+    margin-right: 5%;
+  }
+  
+  .text-1{
+    overflow:auto;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;   
+  }
+  
+  
+
+
+/* Icono de whatsapp fijo en el footer */
+
+
+
+.imagenwhatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 100px;
+    height: 60px;
+}
